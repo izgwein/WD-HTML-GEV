@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/izgwein/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="https://i.pinimg.com/564x/04/f5/97/04f597cd7269bf866aa710dfc902658c.jpg" alt="MX" width="390" height="300">
+    <img src="https://i.pinimg.com/564x/04/f5/97/04f597cd7269bf866aa710dfc902658c.jpg" alt="MX" width="650" height="600">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Formulating HTML</h3>
@@ -55,7 +55,6 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
 The project is about formulating a simple and static HTML
 by simply choosing a website layout on the internet and making
 the design come to life by coding it through HTML and CSS.
