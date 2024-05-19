@@ -56,8 +56,7 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 The project is about formulating a simple and static HTML
-by simply choosing a website layout on the internet and making
-the design come to life by coding it through HTML and CSS.
+of my resume using HTML and CSS.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -103,6 +102,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Balge Website Layout | Used as website layout reference. | https://i.pinimg.com/564x/44/2c/a6/442ca6775c3835d3096cd678e2c85605.jpg |
-| Eyes Image 1 | Image used in the hero section. | https://i.pinimg.com/564x/df/c7/ba/dfc7ba640988b349766397e5e94e22fc.jpg |
-| Eyes image 2 | Image used for the body. | https://i.pinimg.com/564x/ee/a4/7e/eea47e1da2303dea8721a24faa0f8897.jpg |
+| Portfolio Website Layout | Used as website layout reference. | https://www.behance.net/gallery/168450357/Portfolio-CV-Graphic-Design-Digital-Marketing |
+| Read me image | Image used in the read me section. | https://i.pinimg.com/564x/04/f5/97/04f597cd7269bf866aa710dfc902658c.jpg |
+|  |  |  |
