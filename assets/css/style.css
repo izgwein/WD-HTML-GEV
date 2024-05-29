@@ -54,10 +54,9 @@ div *{
         border: 3px solid black;
         position: relative;
         background: rgb(252, 248, 236);
-        
         .float{
             position: absolute;
-            border: 3px solid black;
+
             padding: 0;
             width: 45%;
             height: 430px;
@@ -66,12 +65,18 @@ div *{
 
             .myimage{
                 height: 260px;
-                border: 3px solid black;
                 background: rgb(77, 107, 84);
+                position: relative;
+
+                img{
+                    width: 410px;
+                    position: absolute;
+                    top: -10.5rem;
+                    left: -5px;
+                }
             }
             .contact{
-                border: 3px solid black;
-                height: 140px;
+                height: 150px;
                 background: black;
 
                 h2{
@@ -84,13 +89,12 @@ div *{
                     grid-template-columns: 1fr 1fr;
                     grid-template-rows: 1fr;
                     .icons{
-
-                        
+                        size: 5rem;
                     }
                     
                     .info{
                         width: 12%;
-                        margin-left: -98px;
+                        margin-left: -145px;
                         margin-top: -5px;
                     }
                 }
@@ -123,24 +127,54 @@ div *{
             font-size: 3.5rem;
         }
 
+        h2{
+            font-size: 1.7rem;
+        }
+
         div{
-            
+            display: grid;
+            grid-template-columns: 1fr 650px;
+            grid-template-rows: 1fr;
+            gap: 0;
         }
 
         .year{
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
         }
 
         .info{
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
+
         }
     }
 
     .skills{
+        padding-top: 7%;
+        padding-bottom: 0;
+        margin: 0;
+        
         border: 3px solid black;
         background: rgb(77, 107, 84);
+
+        .skillsCon{
+            padding-top: 20%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 0;
+            border: 3px solid black;
+            h1{
+                border: 3px solid black;
+            }
+            h2{
+                order: 3;
+            }
+        }
+
     }
 
     .activity{
