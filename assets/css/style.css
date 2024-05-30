@@ -27,7 +27,7 @@ div *{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 21.6%;
+    grid-template-rows: 1fr 1fr 23.6%;
     border: 3px solid black;
     padding-bottom: 0;
     gap: 0;
@@ -145,22 +145,30 @@ div *{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            padding-top: 30px;
+            color: white;
         }
 
         .info{
             display: flex;
-            padding-top: 2.2%;
+            padding-top: 40px;
             flex-direction: column;
             justify-content: space-between;
 
+            b{
+                
+                font-size: 1.3rem;
+            }
+
+            p{
+                font-size: larger;
+            }
         }
     }
 
     .skills{
-        padding-top: 23%;
+        padding-top: 22%;
         padding-bottom: 0;
-        margin: 0;
-        gap: 0;
         background: rgb(77, 107, 84);
 
         .skillsCon{
@@ -168,21 +176,21 @@ div *{
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;
             gap: 0;
-            border: 3px solid black;
-            padding-top: 2rem;
-            padding-bottom: 0;
             margin: 0;
             h1{
                 
                 grid-column: 1 / 4 ;
-                grid-row: 1 / span 2;
-                border: 3px solid black;
+                grid-row: 1 / 2;
                 align-self: center;
                 font-size: 3.5rem;
+                padding-top: 50px;
                 color:rgb(238, 182, 191);
             }
 
             #softSkills{
+                grid-row: 2 / 3;
+                grid-column: 1 / 2;
+                padding-left: 30px;
                 h2{
                     font-size: 2rem;
                     color:#fbf8f8;
@@ -191,47 +199,84 @@ div *{
                     width: 60px;
                     height: auto; 
                 }
+                div{
+                    display: flex;
+                    justify-content: space-around;
+                }
             }
 
             #codingSkills{
                 grid-column: 2 / 4 ;
-                border: 3px solid white;
+                grid-row: 2 / 3;
+                padding-left: 30px;
+
                 .label{
                     display: grid;
                     grid-template-columns: repeat(4, 1fr);
-                     h2{
-                        font-size: 15px;
-                     }
-                }
-                .prog{
                     display: flex;
-                    justify-content: space-between;
-                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                    padding-left: 0;
 
-                    .container {
-                     
-                        background-color: rgb(192, 192, 192);
-                        width: 20%;
-                        border-radius: 15px;
-                        border-color: transparent;
-
-                        .skill {
-                            background-color:rgb(238, 182, 191);
-                            text-align: center;
-                            font-size: 90px;
-                            border-radius: 15px;
-                        }
+                    p{
+                        font-size: 2rem;
                     }
-
                 }
-
-                
 
                 h2{
                     font-size: 2rem;
                     color:#fbf8f8;
                 }
+
+                .prog{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                grid-column: 2 / span 3 ;
+                grid-row: 3 / 4;
+
+                .container {
+                    background-color: rgb(192, 192, 192);
+                    width: 20%;
+                    height: 10%;
+                    border-radius: 15px;
+                    border-color: transparent;
+
+                    .bar1 {
+                        background-color:rgb(238, 182, 191);
+                        text-align: center;
+                        font-size: 100px;
+                        border-radius: 15px;
+                        width: 55px;
+                    }
+                    .bar2 {
+                        background-color:rgb(238, 182, 191);
+                        text-align: center;
+                        font-size: 100px;
+                        border-radius: 15px;
+                        width: 54px;
+                    }
+
+                    .bar3 {
+                        background-color:rgb(238, 182, 191);
+                        text-align: center;
+                        font-size: 100px;
+                        border-radius: 15px;
+                        width: 59px;
+                    }
+
+                    .bar4 {
+                        background-color:rgb(238, 182, 191);
+                        text-align: center;
+                        font-size: 100px;
+                        border-radius: 15px;
+                        width: 25px;
+                    }
+                }
+
             }
+            }
+
         }
 
     }
@@ -240,11 +285,42 @@ div *{
     .others{
         grid-column: 1/ 3;
         background: rgb(252, 248, 236);
-        border: 3px solid black;
+        padding-top: 1.5%;
+        padding-left: 4%;
+
+        h1{
+            color: rgb(238, 182, 191);
+            font-size: 3.5rem;
+        }
 
         #container{
             display: grid;
             grid-template-columns: 1fr 1fr;
+            gap: 0;
+
+            i{
+                align-items: center;
+                font-size: 3rem;
+            }
+
+            .hobbies{
+                border: 3px solid black;
+                i{
+                    font-size: 3rem;
+                }
+            }
+
+            .language{
+                div{
+                    display: flex;
+                    justify-content: space-around;
+                    padding-left: 50px;
+                    padding-top: 20px;
+                    h2{
+                        font-size: 2rem;
+                    }
+                }
+            }
         }
     }
 }
@@ -260,6 +336,11 @@ footer{
 
     div {
         padding-left: 10%;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
         button{
         
             img {
@@ -270,3 +351,4 @@ footer{
     }
     
 }
+
