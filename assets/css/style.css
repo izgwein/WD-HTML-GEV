@@ -102,6 +102,7 @@ div *{
                     color:rgb(238, 182, 191);
                     padding: 4% 2% 1% 6%;
                     font-size: 3rem;
+                    text-shadow: 1px 1px 2px gray;
                     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
                 }
 
@@ -146,6 +147,7 @@ div *{
         h1{
             color: rgb(238, 182, 191);
             font-size: 3.5rem;
+            text-shadow: 1px 1px 2px black;
         }
 
         h2{
@@ -205,6 +207,7 @@ div *{
                 font-size: 3.5rem;
                 padding-top: 10px;
                 color:rgb(238, 182, 191);
+                text-shadow: 1px 1px 2px black;
             }
 
             #softSkills{
@@ -309,6 +312,7 @@ div *{
         padding-left: 4%;
         position: relative;
         height: 95%;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
             .hobbies{
                 width: 30%;
@@ -325,8 +329,9 @@ div *{
                     box-shadow: 5px 5px 5px black;
                     h1{
                         color: black;
-                        font-size: 3.5rem;
+                        font-size: 3rem;
                         text-align: center;
+                        text-shadow: 1px 1px 2px white;
                     }
 
                     div{
@@ -362,6 +367,7 @@ div *{
                     font-size: 3.5rem;
                     text-align: flex-end;
                     color:rgb(238, 182, 191);
+                    text-shadow: 1px 1px 2px black;
                 }
                 .langContent{
                     display: flex;
