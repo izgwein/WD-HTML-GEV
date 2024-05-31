@@ -104,4 +104,7 @@ WD-ProjectName
 |-|-|-|
 | Portfolio Website Layout | Used as website layout reference. | https://www.behance.net/gallery/168450357/Portfolio-CV-Graphic-Design-Digital-Marketing |
 | Read me image | Image used in the read me section. | https://i.pinimg.com/564x/04/f5/97/04f597cd7269bf866aa710dfc902658c.jpg |
-|  |  |  |
+| Box Icons | Used for icons. | https://boxicons.com |
+| Progress Bar | Used code to make progress bars | https://www.geeksforgeeks.org/how-to-create-a-progress-bar-using-html-and-css/ |
+| Icons8 | Used for icons. | https://img.icons8.com/ios-filled/50/dancing.png |
+| Circular Progress Bar | Copied and modified code for making a circular prgress bar. |https://www.geeksforgeeks.org/create-a-circular-progress-bar-using-html-and-css/|
